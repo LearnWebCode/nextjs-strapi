@@ -1,0 +1,30 @@
+{
+  "name": "our-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@strapi/blocks-react-renderer": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.14",
+    "fs-extra": "^11.2.0",
+    "husky": "^9.1.4",
+    "next": "^14.2.5",
+    "qs": "^6.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.7"
+  }
+}
